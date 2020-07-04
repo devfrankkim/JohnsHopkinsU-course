@@ -1,14 +1,14 @@
 # Johns Hopkins University - Web Development
 *HTML*   
 [Anchor tags](#Anchor-tags)    
-[`&nbsp;`](#&-nbsp)    
+[`&nbsp;`](#&nbsp)    
 
 
 ****
 
 *CSS*    
-[Class Selector](###Selector)   
-[Pseudo-Class Selectors](###Pseudo-Class-Selectors)
+[Class Selector](#Selector)   
+[Pseudo-Class Selectors](#Pseudo-Class-Selectors)
 
 
 ****
