@@ -3,8 +3,14 @@
 
 
 ## Anchor tags 
+
+- Internal linking to other pages in the site
+- External linking to other web pages
+- target="_blank" opens up for a separate tab
+- Linking to sections of a document
+
   "name vs id"
-- The document tree will look for "id" first and then find "name"
+  - The document tree will look for "id" first and then find "name"
  ```
     <a href="#section3">three</a>
 
