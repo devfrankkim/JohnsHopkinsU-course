@@ -120,3 +120,14 @@ Sharing the same parent.
 
 
 ### Pseudo-Class Selectors
+
+Many pseudo-class selectors exist 
+
+- :link
+- :visited
+- :hover
+- :active
+- :nth-child(....)   
+    ex) a:hover div:nth-child(10) {
+        color: red;
+      }
