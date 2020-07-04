@@ -1,7 +1,7 @@
 # Johns Hopkins University - Web Development
 *HTML*   
 [Anchor tags](#Anchor-tags)    
-[`&nbsp;`](#&-nbsp-;)    
+[`&nbsp;`](#Non-breaking-space-(nbsp))    
 
  
 ****
@@ -33,7 +33,7 @@
     <a name="section3"><h2>section3</h2></a>
  ```
 
-### & nbsp ;
+### Non-breaking space (nbsp)
 
 Place `&nbsp;` entity reference after the 1st word and after the 2nd word (with no spaces in between words and entity references) to keep the words together
 ```
@@ -59,7 +59,8 @@ Combining Selectors
 
 ```
 "+"
-An adjacent sibling combinator selector allows you to select an element that is directly after another specific element.
+An adjacent sibling combinator selector 
+allows you to select an element that is directly after another specific element.
 ```
 ```
 "~"
@@ -108,7 +109,9 @@ ex)
 
 
  ```
-Note that in both the general sibling and adjacent sibling selectors the logic takes place within the same parent element.
+Note that 
+in both the general sibling and adjacent sibling selectors the logic takes place 
+within the same parent element.
 
 That’s what siblings means.
 Sharing the same parent. 
