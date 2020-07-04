@@ -1,7 +1,7 @@
 # Johns Hopkins University - Web Development
 *HTML*   
 [Anchor tags](#Anchor-tags)    
-[`&nbsp;`](#Non-breaking-space-(nbsp))    
+[`&nbsp;`](#Non-breaking-space)    
 
  
 ****
@@ -33,7 +33,7 @@
     <a name="section3"><h2>section3</h2></a>
  ```
 
-### Non-breaking space (nbsp)
+### Non-breaking space 
 
 Place `&nbsp;` entity reference after the 1st word and after the 2nd word (with no spaces in between words and entity references) to keep the words together
 ```
