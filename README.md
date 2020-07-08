@@ -9,13 +9,17 @@ _HTML_
 _CSS_  
 [Class Selector](#Selector)  
 [Pseudo-Class Selectors](#Pseudo-Class-Selectors)  
-[Specificity](#Specificity)
+[Specificity](#Specificity)  
+[Box-sizing:border-box](#Border-box)  
+[Margin-collapse](#Margin-collapse)  
+[Content overflow](#Content-overflow)  
+[Floats](#Floats)
 
 ---
 
-## HTML
+## `HTML`
 
-### Anchor tags
+## Anchor tags
 
 - Internal linking to other pages in the site
 - External linking to other web pages
@@ -37,7 +41,7 @@ _CSS_
    <a name="section3"><h2>section3</h2></a>
 ```
 
-### Non-breaking space
+## Non-breaking space
 
 Place `&nbsp;` entity reference after the 1st word and after the 2nd word (with no spaces in between words and entity references) to keep the words together
 
@@ -47,9 +51,9 @@ frank&nbsp;is&nbsp;nice
 
 ---
 
-## CSS
+## `CSS`
 
-### Selector
+## Selector
 
 ```
 Combining Selectors
@@ -123,7 +127,7 @@ That’s what siblings means.
 Sharing the same parent.
 ```
 
-### Pseudo-Class Selectors
+## Pseudo-Class Selectors
 
 Many pseudo-class selectors exist
 
@@ -136,7 +140,7 @@ Many pseudo-class selectors exist
   color: red;
   }
 
-### Specificity
+## Specificity
 
 - Highest score wins
 - !important -> Have to be careful
@@ -158,3 +162,29 @@ ex)
 #myColor {color: green;} -> winner
 
 .myColor {color: blue;} -> id before class
+
+## Border-box
+
+- content-box is default
+- { box-sizing: border-box; }
+- Everything is playing inside the width you set
+- The \* (universal) selector
+
+## Margin-collapse
+
+- Collapsing for Vertical margins
+- Larger margin wins
+- Horizontal margins combine together
+
+## Content overflow
+
+- overflow: hidden -> hiding flowing content
+- overflow: auto -> scroll bar
+- overflow: scroll -> both ways
+
+## Floats
+
+- Floating elements can produce very flexible layouts
+- Floats are taken out of normal document flow
+- Floats don't have vertical margin collapse
+- To use normal document flow, use the "clear" property(right, left, both)
