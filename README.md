@@ -13,7 +13,8 @@ _CSS_
 [Box-sizing:border-box](#Border-box)  
 [Margin-collapse](#Margin-collapse)  
 [Content overflow](#Content-overflow)  
-[Floats](#Floats)
+[Floats](#Floats)  
+[Positioning](#Positioning)
 
 ---
 
@@ -188,3 +189,30 @@ ex)
 - Floats are taken out of normal document flow
 - Floats don't have vertical margin collapse
 - To use normal document flow, use the "clear" property(right, left, both)
+
+## Positioning
+
+- "From" top, right, bottom, left
+- Has negative values
+- positons always look for ancestors
+
+### Static Positioning
+
+- normal document flow.
+- Default for all elements, except HTML(relative)
+
+### Relative Positioning
+
+- Element is positioned relative to its position in normal document flow
+- HTML(by default)
+- The children will move together with the parent(relative)
+
+### Absolute Positioning
+
+- All offesets(t,r,b,l) are relative to the position of the nearest ancestor which has positioning set on it, other than static
+
+- By default, html is the only element that has non-static positioning set on it(relative)
+
+- Needs a relative OR absoulte parent or ancestor (check the parent's position first)
+
+- It bubbles up to HTML(relative by default) and check the positioning
